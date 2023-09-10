@@ -1,0 +1,134 @@
+* {
+  margin: 0%;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #1b0bd0, #a282ee, #570a8a);
+  background-size: 180% 180%;
+  animation: gradient-animation 12s ease infinite;
+  margin: 0%;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.nv{
+  background: transparent !important;
+}
+.navbar-brand{
+  font-family: 'Poppins', sans-serif; 
+}
+.nav-item{
+  font-family: 'Libre Baskerville', serif;
+}
+.prof_pic {
+  border-radius: 20px;
+  max-width: 85%;
+}
+
+.name {
+  color: white;
+  font-family: 'Cookie', cursive;
+  font-size: 8rem;
+}
+
+.poppins {
+  font-family: 'Libre Baskerville', serif;
+  color: rgb(182, 181, 180);
+}
+
+.title-se {
+  color: aliceblue;
+  font-size: xx-large;
+}
+
+.les {
+  font-size: large;
+}
+
+#contact-me {
+  font-size: 1.5rem;
+}
+
+.flx {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+
+}
+
+.ed-title {
+  font-family: 'Cookie', cursive;
+  font-size: 4rem;
+  color: #000000;
+}
+/* .ed-text{
+  color: #ffffff;
+} */
+
+.ed-pic {
+  background-image: url('assets/edu.jpg');
+  background-size: cover;
+  
+}
+.sp-title {
+  font-family: 'Cookie', cursive;
+  font-size: 6rem;
+  color: #ffffff;
+}
+.sp-tinfo {
+  font-family: 'Libre Baskerville', serif;
+  margin-bottom: 0%;
+  /* font-size: 2rem; */
+  color: #ffffff;
+}
+
+.social{
+  height:3rem;
+  width: 500px;
+}
+.skills {
+  background: hsla(0, 0%, 100%, 1);
+
+background: linear-gradient(135deg, hsla(0, 0%, 100%, 1) 0%, hsla(245, 90%, 43%, 1) 87%);
+
+background: -moz-linear-gradient(135deg, hsla(0, 0%, 100%, 1) 0%, #1b0bd0 87%);
+
+background: -webkit-linear-gradient(135deg, hsla(0, 0%, 100%, 1) 0%, hsla(245, 90%, 43%, 1) 87%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#1C0BD0", GradientType=1 );}
+
+
+/*  
+.blur{
+   backdrop-filter: blur(8px);
+  -webkit-filter: blur(8px);
+}*/
+/* bg1
+ background-color: #A9C9FF; 
+ background-image: linear-gradient(333deg, #A9C9FF 9%, #FFBBEC 29%, #ffffff 100%); */
+
+/*  bg2
+background: rgb(169,201,255);
+background: linear-gradient(90deg, rgba(169,201,255,1) 0%, rgba(255,187,236,1) 35%, rgba(255,255,255,1) 100%); */
+/* text
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'DM Serif Display', serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Poppins', sans-serif; 
+font-family: 'Cookie', cursive;
+
+
+
+ style="background-image: url('ed3.jpg');"*/
